@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="asyncFunction()">Async Function</button>
+    <button onclick="normalFunction()">Normal Function</button>
+    <script>
+        console.log("Begin");
+        (asyncFunction = async() => {
+            console.log("1");
+            await console.log("2");
+            console.log("3");
+            await console.log("4");
+            console.log("5");
+        })();
+
+        (normalFunction =()=>{
+            console.log("1");
+            console.log("2");
+            console.log("3");
+            console.log("4");
+            console.log("5");
+        })();
+        
+        console.log("6");
+        console.log("7");
+        </script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+.App {
+  text-align: center;
+}
+body {
+  height: 100vh;
+  background: #fffbd8 !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar {
+  
+  background-color: #767d37 !important;
+}
+.nav-link {
+  display: block;
+  font-weight: 700 !important;
+  color:#fff !important;
+  padding: 5px 7px !important;}
+  .heading{text-align: center;}
+  a.logedin {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid;
+    text-transform: uppercase;
+    padding: 3px 15px;
+}
+.login form {
+  margin: auto;
+  width: 40%;
+  margin-top: 4%;
+}
+form {
+  width: 25%;
+  margin: 50px auto;
+  background: #fff;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* .footer {
+  background: #4f5519;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+} */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 35px; /* Set the height of the footer */
+  background-color: #333900; /* Background color of the footer */
+  color: white; /* Text color of the footer */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.data{
+  padding-bottom:100px;
+}
+.footer p{
+  margin:0px;
+  padding:5px;
+}
+.card{
+  margin-bottom: 10px;
+}
+.table
+{
+  margin:auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+thead tr th {
+  background: #545454a1 !important;
+  color: #fff !important;
+}
+label{
+  font-weight: bold;
+}
+.tables{
+  height: 400px;
+  overflow: auto;
+  margin-top:50px;
+}
+.newform{
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.newform form{
+  width: 100% !important;
+}
+
+.loadimg {
+  width: 148px;
+  /* text-align: center; */
+  margin: auto;
+  display: block;
+  margin-top: 10%;
+}
+h2 {
+  text-align: center;
+  font-size: 18px !important;
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 5px;
+  margin: auto;
+  font-weight: bold !important;
+    text-transform: uppercase;
+}
+.card-title img {
+  width: 90%;
+  height: 190px;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;     
+}
+.cards p {
+  margin-bottom: 0;
+}
+.cards{
+  text-align: center;
+  background: #fff;
+  padding: 35px 0px;
+}
+.cards img{
+  width: 175px;
+  height:230px;
+  border: 1px solid #5ef363;
+}
+.cards .btn{
+  width: 175px;
+  border-radius: 0;
+  padding: 0px;
+}
+.profile img {
+  width: 100%;
+  height: 100%;
+}
+.dropdown:hover .dropdown-menu{
+display: block !important;
+}
+.btn-primary {
+  border: 0 !important;
+  border-radius: 0px !important;
+  background: #98a32e !important;         
+  padding: 3px 20px !important;
+  
+}
+.form-control {
+  display: block;
+  border: 1px solid #767d37 !important;
+  }
+  button.edit {
+    background: #8d8419;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 31%;
+    font-weight: bold;
+    width: 80px;
+    padding: 3px;
+}
+button.delete {
+  background: #931e1e;
+  border: 0;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  margin-left: 31%;
+  font-weight: bold;
+  width: 80px;
+  padding: 3px;
+}
+ul.dropdown-menu {
+  padding: 0;
+}
+
+a.dropdown-item {
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #767d37 !important;
+}
+
+.table-responsive {
+  overflow: auto;
+  height: 490px;
+}
+.modal-footer{
+  padding:0px !important;
+}
+.modal-footer button{
+  padding: 3px 10px !important;
+}
+button.btn.btn-success.excels {
+  padding: 2px 6px;
+  border-radius: 0;
+  background: #98a32e;
+  margin-bottom: 3px;
+  border: 0;
+}
+button.btn.btn-warning.pdfs {
+  padding: 2px 6px;
+  border-radius: 0;
+  background: #7f8548;
+  margin-bottom: 3px;
+  border: 0;
+  color: #fff;
+}
+.sub {
+  text-align: center;
+  font-weight: 600;
+}
